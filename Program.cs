@@ -8,22 +8,22 @@ namespace QaTest
         {
             Triangle triangle1 = new Triangle();
 
-            Console.WriteLine("Input side x of dot A: ");
+            Console.WriteLine("Input cordinate x of dot A: ");
             double Ax = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Input side y of dot A: ");
+            Console.WriteLine("Input cordinate y of dot A: ");
             double Ay = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Input side x of dot B: ");
+            Console.WriteLine("Input cordinate x of dot B: ");
             double Bx = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Input side y of dot B: ");
+            Console.WriteLine("Input cordinate y of dot B: ");
             double By = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Input side x of dot C: ");
+            Console.WriteLine("Input cordinate x of dot C: ");
             double Cx = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Input side y of dot C: ");
+            Console.WriteLine("Input cordinate y of dot C: ");
             double Cy = Convert.ToInt32(Console.ReadLine());
 
             double AB = triangle1.LengtOfSide(Ax, Ay, Bx, By);
@@ -37,7 +37,7 @@ namespace QaTest
 
 
             triangle1.GetType(AB, BC, AC);
-            triangle1.Triangle_Peremeter(AB, BC, AC);
+            triangle1.Triangle_Perimeter(AB, BC, AC);
             triangle1.EvenNumbers();
 
         }

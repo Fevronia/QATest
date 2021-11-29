@@ -22,11 +22,11 @@ namespace QaTest
         {
             if (a == b && b == c && c == a)
             {
-                Console.WriteLine("Triangle is equal");
+                Console.WriteLine("Triangle is Equal");
             }
             else
             {
-                Console.WriteLine("Triangle is not equal");
+                Console.WriteLine("Triangle is not Equal");
             }
 
             if (a == b || b == c || c == a)
@@ -51,7 +51,7 @@ namespace QaTest
 
         }
 
-        public double Triangle_Peremeter(double a, double b, double c)
+        public double Triangle_Perimeter(double a, double b, double c)
         {
             Perimeter = a + b + c;
             Console.WriteLine("Peremetr is {0}", Perimeter);
